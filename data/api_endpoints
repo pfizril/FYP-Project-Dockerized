@@ -1,0 +1,51 @@
+133,show_current_user,/auth/current-user,GET,t,,2025-05-16 16:23:33.427545,2025-05-16 16:23:33.427547,t
+135,generate_api_key,/auth/api-keys/generate/{user_id},POST,t,,2025-05-16 16:23:33.430237,2025-05-16 16:23:33.430238,t
+136,revoke_api_key,/auth/api-keys/revoke/{key_id},POST,t,,2025-05-16 16:23:33.432479,2025-05-16 16:23:33.432482,t
+137,list_api_keys,/auth/api-keys/list,GET,t,,2025-05-16 16:23:33.433918,2025-05-16 16:23:33.433919,t
+138,get_api_key,/auth/api-keys/{user_id},GET,t,,2025-05-16 16:23:33.435267,2025-05-16 16:23:33.435268,t
+143,delete_endpoint,/api-management/delete-endpoints/{endpoint_id},DELETE,t,,2025-05-16 16:23:33.442815,2025-05-16 16:23:33.442819,t
+144,create_endpoint,/api-management/endpoints/create,POST,t,,2025-05-16 16:23:33.444928,2025-05-16 16:23:33.44493,t
+145,list_endpoints,/api-management/endpoints,GET,t,,2025-05-16 16:23:33.446319,2025-05-16 16:23:33.44632,t
+146,toggle_endpoint_status,/api-management/endpoints/toggle_status/{endpoint_id},PUT,t,,2025-05-16 16:23:33.447687,2025-05-16 16:23:33.447687,t
+147,comprehensive_vulnerability_scan,/security/vulnerability-scan/comprehensive,GET,t,Comprehensive vulnerability scanning,2025-05-16 16:23:33.449621,2025-05-16 16:23:33.449623,t
+148,get_traffic_analysis,/security/traffic-analysis,GET,t,Generate comprehensive traffic analysis report,2025-05-16 16:23:33.451509,2025-05-16 16:23:33.45151,t
+149,get_threat_score,/security/threat-score,GET,t,,2025-05-16 16:23:33.452851,2025-05-16 16:23:33.452852,t
+150,scan_exposed_endpoints,/security/vulnerability-scan/open-endpoints,GET,t,,2025-05-16 16:23:33.45412,2025-05-16 16:23:33.454121,t
+151,scan_cors_issues,/security/vulnerability-scan/cors,GET,t,,2025-05-16 16:23:33.456322,2025-05-16 16:23:33.456323,t
+152,traffic_insights,/analytics/traffic-insights,GET,t,,2025-05-16 16:23:33.457747,2025-05-16 16:23:33.457748,t
+153,success_failure_rates,/analytics/success-failure-rates,GET,t,,2025-05-16 16:23:33.459063,2025-05-16 16:23:33.459063,t
+154,response_time_analysis,/analytics/response-time-analysis,GET,t,,2025-05-16 16:23:33.460388,2025-05-16 16:23:33.460388,t
+155,export_logs,/analytics/export-logs,GET,t,,2025-05-16 16:23:33.462935,2025-05-16 16:23:33.462938,t
+156,get_health_summary,/analytics/endpoints/health-summary,GET,t,,2025-05-16 16:23:33.464654,2025-05-16 16:23:33.464655,t
+157,overview_metrics,/analytics/overview-metrics,GET,t,,2025-05-16 16:23:33.465978,2025-05-16 16:23:33.465979,t
+158,requests_breakdown,/analytics/requests-breakdown,GET,t,,2025-05-16 16:23:33.467732,2025-05-16 16:23:33.467734,t
+159,failures_breakdown,/analytics/failures-breakdown,GET,t,,2025-05-16 16:23:33.46929,2025-05-16 16:23:33.469291,t
+160,performance_trends,/analytics/performance-trends,GET,t,,2025-05-16 16:23:33.470658,2025-05-16 16:23:33.470659,t
+161,client_insights,/analytics/client-insights,GET,t,,2025-05-16 16:23:33.471932,2025-05-16 16:23:33.471933,t
+162,get_csrf_token,/csrf/csrf-token,GET,t,,2025-05-16 16:23:33.473852,2025-05-16 16:23:33.473855,f
+393,test,test,GET,t,test,2025-06-14 22:31:33.299272,2025-06-14 22:31:33.299295,f
+164,health_check,/health,GET,t,Public health check endpoint - doesn't require authentication,2025-05-16 16:23:33.477026,2025-05-16 16:23:33.477027,f
+165,read_root,/,GET,t,,2025-05-16 16:23:33.479674,2025-05-16 16:23:33.479678,f
+166,admin_dashboard,/admin-dashboard,GET,t,,2025-05-16 16:23:33.482864,2025-05-16 16:23:33.482866,t
+167,test_payload,/test-payload,POST,t,,2025-05-16 16:23:33.484375,2025-05-16 16:23:33.484376,f
+130,create_user,/auth/users/create-user,POST,t,,2025-05-16 16:23:33.420183,2025-05-17 22:38:29.356685,t
+141,update_user_role,/auth/users/update-role/{user_id},PUT,t,,2025-05-16 16:23:33.439902,2025-06-15 12:48:26.008972,t
+140,list_users,/auth/users/list,GET,t,list all the user ,2025-05-16 16:23:33.438598,2025-06-15 13:42:54.346263,t
+132,user,/auth/show-current-users,GET,t,,2025-05-16 16:23:33.425745,2025-06-07 20:42:40.033054,t
+368,test-csrf-endpoint,http://example.com/api/test,POST,t,ok,2025-06-14 21:55:40.837828,2025-06-14 21:55:40.837862,f
+131,login,/auth/token,POST,t,,2025-05-16 16:23:33.423438,2025-06-08 11:15:08.350081,f
+134,update_user_profile,/auth/users/update-user/{user_id},PUT,t,,2025-05-16 16:23:33.428926,2025-06-15 13:10:11.719384,t
+418,update_user_profile,/auth/update-user,PUT,t,,2025-06-15 13:14:21.902281,2025-06-15 13:14:21.902284,t
+420,export_security_logs,/security/export-logs,GET,t,,2025-06-15 13:14:21.915497,2025-06-15 13:14:21.915499,t
+421,export_threat_logs,/security/export-threat-logs,GET,t,,2025-06-15 13:14:21.916274,2025-06-15 13:14:21.916275,t
+139,protected_endpoint,/auth/protected,GET,t,,2025-05-16 16:23:33.43691,2025-06-13 00:45:14.204148,t
+422,export_traffic_logs,/security/export-traffic-logs,GET,t,,2025-06-15 13:14:21.917057,2025-06-15 13:14:21.917058,t
+142,update_endpoint,/api-management/endpoints-update/{endpoint_id},PUT,t,update ,2025-05-16 16:23:33.441206,2025-06-15 12:44:38.040582,t
+423,get_threat_indicators,/security/threat-indicators,GET,t,Get current threat indicators and counts,2025-06-15 13:14:21.919308,2025-06-15 13:14:21.919309,t
+424,test_threat_detection,/security/test-threat-detection,POST,t,Test endpoint for threat detection - allows testing with various payloads,2025-06-15 13:14:21.920082,2025-06-15 13:14:21.920083,t
+425,test_threat_detection_simple,/security/test-threat-detection-simple,POST,t,Simple test endpoint for threat detection - no authentication required,2025-06-15 13:14:21.920812,2025-06-15 13:14:21.920813,f
+426,export_health_logs,/analytics/export-health-logs,GET,t,,2025-06-15 13:14:21.924708,2025-06-15 13:14:21.924709,t
+427,get_latest_endpoint_health,/analytics/endpoints/latest-health,GET,t,Get the latest health status for each endpoint with pagination\, search\, and filtering.\nReturns the most recent health check for each endpoint.,2025-06-15 13:14:21.926248,2025-06-15 13:14:21.926249,t
+419,update_user,/auth/users/update/{user_id},PUT,t,,2025-06-15 13:14:21.908808,2025-06-15 13:20:07.966577,t
+428,get_activity_data,/analytics/activity,GET,t,,2025-06-15 13:14:21.931134,2025-06-15 13:14:21.931135,t
+429,test_csrf_protection,/csrf/test-csrf-protection,POST,t,,2025-06-15 13:14:21.932688,2025-06-15 13:14:21.932689,f
