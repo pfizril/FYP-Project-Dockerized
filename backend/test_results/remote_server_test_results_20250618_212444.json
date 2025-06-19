@@ -1,0 +1,472 @@
+{
+  "status": "success",
+  "server": "Data API UM",
+  "discovered_endpoints": 30,
+  "stored_endpoints": 30,
+  "monitoring_results": [
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/graduation",
+      "status": "error",
+      "response_time": 0.109405517578125
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/got",
+      "status": "error",
+      "response_time": 0.15812301635742188
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/householdincome",
+      "status": "error",
+      "response_time": 0.11673092842102051
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/citizenship",
+      "status": "error",
+      "response_time": 0.107940673828125
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/ptj",
+      "status": "success",
+      "response_time": 0.45983195304870605
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/admissionchannel",
+      "status": "success",
+      "response_time": 0.48590946197509766
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/age_gender",
+      "status": "error",
+      "response_time": 0.11181879043579102
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/mymohes/api/students",
+      "status": "error",
+      "response_time": 0.07876157760620117
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/",
+      "status": "success",
+      "response_time": 0.353757381439209
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/general",
+      "status": "error",
+      "response_time": 0.14838719367980957
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/appointment",
+      "status": "success",
+      "response_time": 3.3128747940063477
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/category",
+      "status": "error",
+      "response_time": 0.09167671203613281
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/appointment_category",
+      "status": "error",
+      "response_time": 0.08811378479003906
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/contributions",
+      "status": "error",
+      "response_time": 0.08237838745117188
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/ptj",
+      "status": "success",
+      "response_time": 0.19595670700073242
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/age_gender",
+      "status": "error",
+      "response_time": 0.09095001220703125
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/lengthofservice_category",
+      "status": "success",
+      "response_time": 0.24844789505004883
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/academicqualification",
+      "status": "error",
+      "response_time": 0.14948630332946777
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/",
+      "status": "error",
+      "response_time": 0.10153412818908691
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/general",
+      "status": "success",
+      "response_time": 0.4121246337890625
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/admission",
+      "status": "success",
+      "response_time": 0.21396851539611816
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/enrolment",
+      "status": "error",
+      "response_time": 0.10139203071594238
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/student/public/student/demographics/studyyear",
+      "status": "error",
+      "response_time": 0.1637415885925293
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/umtouch/token",
+      "status": "error",
+      "response_time": 0.07686686515808105
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/umtouch/access_control/",
+      "status": "error",
+      "response_time": 0.40926647186279297
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/mymohes/auth/token",
+      "status": "error",
+      "response_time": 0.09183835983276367
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/staff/public/staff/demographics/positiongroup",
+      "status": "success",
+      "response_time": 0.21104955673217773
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/mymohes/api/students/A123456",
+      "status": "error",
+      "response_time": 0.09782195091247559
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/umportal/login",
+      "status": "error",
+      "response_time": 0.16834354400634766
+    },
+    {
+      "endpoint": "https://data-api.um.edu.my/api/v1/umportal/access_control/",
+      "status": "error",
+      "response_time": 0.10359597206115723
+    }
+  ],
+  "metrics": {
+    "total_requests": 30,
+    "successful_requests": 9,
+    "failed_requests": 21,
+    "success_rate": 30.0,
+    "average_response_time": 0.28473649024963377,
+    "failure_breakdown": {
+      "server_error": 14,
+      "authentication_required": 5,
+      "validation_error": 2
+    }
+  },
+  "endpoints": [
+    {
+      "id": 16,
+      "path": "/api/v1/student/public/student/demographics/graduation",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561255",
+      "response_time": 0.109405517578125,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 17,
+      "path": "/api/v1/student/public/student/demographics/got",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561271",
+      "response_time": 0.15812301635742188,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 18,
+      "path": "/api/v1/student/public/student/demographics/householdincome",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561282",
+      "response_time": 0.11673092842102051,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 19,
+      "path": "/api/v1/student/public/student/demographics/citizenship",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561294",
+      "response_time": 0.107940673828125,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 20,
+      "path": "/api/v1/student/public/student/demographics/ptj",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561301",
+      "response_time": 0.45983195304870605,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 21,
+      "path": "/api/v1/student/public/student/demographics/admissionchannel",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561310",
+      "response_time": 0.48590946197509766,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 22,
+      "path": "/api/v1/student/public/student/demographics/age_gender",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561323",
+      "response_time": 0.11181879043579102,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 27,
+      "path": "/api/v1/mymohes/api/students",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561336",
+      "response_time": 0.07876157760620117,
+      "status_code": 401,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 1,
+      "path": "/api/v1/staff/public/staff/",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561347",
+      "response_time": 0.353757381439209,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 2,
+      "path": "/api/v1/staff/public/staff/demographics/general",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561362",
+      "response_time": 0.14838719367980957,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 3,
+      "path": "/api/v1/staff/public/staff/demographics/appointment",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561376",
+      "response_time": 3.3128747940063477,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 4,
+      "path": "/api/v1/staff/public/staff/demographics/category",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561392",
+      "response_time": 0.09167671203613281,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 5,
+      "path": "/api/v1/staff/public/staff/demographics/appointment_category",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561409",
+      "response_time": 0.08811378479003906,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 6,
+      "path": "/api/v1/staff/public/staff/demographics/contributions",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561427",
+      "response_time": 0.08237838745117188,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 7,
+      "path": "/api/v1/staff/public/staff/demographics/ptj",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561443",
+      "response_time": 0.19595670700073242,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 9,
+      "path": "/api/v1/staff/public/staff/demographics/age_gender",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561463",
+      "response_time": 0.09095001220703125,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 10,
+      "path": "/api/v1/staff/public/staff/demographics/lengthofservice_category",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561634",
+      "response_time": 0.24844789505004883,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 11,
+      "path": "/api/v1/staff/public/staff/demographics/academicqualification",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561656",
+      "response_time": 0.14948630332946777,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 12,
+      "path": "/api/v1/student/public/student/",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561696",
+      "response_time": 0.10153412818908691,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 13,
+      "path": "/api/v1/student/public/student/demographics/general",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561717",
+      "response_time": 0.4121246337890625,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 14,
+      "path": "/api/v1/student/public/student/demographics/admission",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561739",
+      "response_time": 0.21396851539611816,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 15,
+      "path": "/api/v1/student/public/student/demographics/enrolment",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561763",
+      "response_time": 0.10139203071594238,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 23,
+      "path": "/api/v1/student/public/student/demographics/studyyear",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561787",
+      "response_time": 0.1637415885925293,
+      "status_code": 500,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 24,
+      "path": "/api/v1/umtouch/token",
+      "method": "POST",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561812",
+      "response_time": 0.07686686515808105,
+      "status_code": 422,
+      "failure_reason": "validation_error"
+    },
+    {
+      "id": 25,
+      "path": "/api/v1/umtouch/access_control/",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561837",
+      "response_time": 0.40926647186279297,
+      "status_code": 401,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 26,
+      "path": "/api/v1/mymohes/auth/token",
+      "method": "POST",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561864",
+      "response_time": 0.09183835983276367,
+      "status_code": 401,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 8,
+      "path": "/api/v1/staff/public/staff/demographics/positiongroup",
+      "method": "GET",
+      "status": "healthy",
+      "last_checked": "2025-06-18T21:24:44.561891",
+      "response_time": 0.21104955673217773,
+      "status_code": 200,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 28,
+      "path": "/api/v1/mymohes/api/students/{matric_no}",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561919",
+      "response_time": 0,
+      "status_code": 0,
+      "failure_reason": "unknown_error"
+    },
+    {
+      "id": 29,
+      "path": "/api/v1/umportal/login",
+      "method": "POST",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561949",
+      "response_time": 0.16834354400634766,
+      "status_code": 422,
+      "failure_reason": "validation_error"
+    },
+    {
+      "id": 30,
+      "path": "/api/v1/umportal/access_control/",
+      "method": "GET",
+      "status": "unhealthy",
+      "last_checked": "2025-06-18T21:24:44.561979",
+      "response_time": 0.10359597206115723,
+      "status_code": 401,
+      "failure_reason": "authentication_required"
+    }
+  ]
+}

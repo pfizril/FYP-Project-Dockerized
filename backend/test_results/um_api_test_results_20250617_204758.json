@@ -1,0 +1,362 @@
+{
+  "/analytics/overview-metrics": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/analytics/overview-metrics'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:51 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/analytics/endpoints/latest-health": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/analytics/endpoints/latest-health'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:51 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/analytics/response-time-analysis": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/analytics/response-time-analysis'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:52 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/analytics/endpoints/status": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/analytics/endpoints/status'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:52 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/analytics/export-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/analytics/export-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:53 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/traffic-analysis": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/traffic-analysis'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:53 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/threat-score": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/threat-score'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:53 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/vulnerability-scan/comprehensive": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/vulnerability-scan/comprehensive'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:55 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/threat-indicators": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/threat-indicators'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:55 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/vulnerability-scan/open-endpoints": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/vulnerability-scan/open-endpoints'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:56 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/export-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/export-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:56 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/export-threat-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/export-threat-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:56 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/security/export-traffic-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/security/export-traffic-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:57 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/api-management/endpoints": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/api-management/endpoints'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:57 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/api-management/endpoints/create": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/api-management/endpoints/create'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:57 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/api-management/endpoints-update/{id}": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/api-management/endpoints-update/1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:58 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:58 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:58 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/check-status": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/check-status'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:59 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/analytics": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/analytics'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:59 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/analytics/summary": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/analytics/summary'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:47:59 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/endpoints": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/endpoints'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:00 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/threat-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/threat-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:00 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/traffic-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/traffic-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:01 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/vulnerability-scans": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/vulnerability-scans'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:01 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/activity-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/activity-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:01 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/rate-limits": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/rate-limits'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:02 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/endpoints/{path}/metrics": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/endpoints/test/metrics'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:02 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/endpoints/{path}/monitor": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/endpoints/test/monitor'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:02 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  },
+  "/remote-servers/{id}/security-logs": {
+    "status_code": 404,
+    "error": "Client error '404 Not Found' for url 'https://data-api.um.edu.my/remote-servers/1/security-logs'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:48:03 GMT",
+      "content-type": "application/json",
+      "content-length": "22",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  }
+}

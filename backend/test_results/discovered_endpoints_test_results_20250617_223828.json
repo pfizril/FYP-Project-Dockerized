@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "Object of type datetime is not JSON serializable"
+}

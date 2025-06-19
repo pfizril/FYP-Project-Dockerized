@@ -1,0 +1,599 @@
+{
+  "status": "success",
+  "server": "Data API UM",
+  "discovered_endpoints": 30,
+  "stored_endpoints": 30,
+  "monitoring_results": [
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/appointment",
+      "status": "success",
+      "response_time": 0.28714513778686523
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/category",
+      "status": "success",
+      "response_time": 0.2629380226135254
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/appointment_category",
+      "status": "success",
+      "response_time": 0.3025319576263428
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/contributions",
+      "status": "success",
+      "response_time": 0.26056432723999023
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/ptj",
+      "status": "success",
+      "response_time": 0.2608046531677246
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/",
+      "status": "success",
+      "response_time": 0.28995490074157715
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/general",
+      "status": "success",
+      "response_time": 1.3738019466400146
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/lengthofservice_category",
+      "status": "success",
+      "response_time": 0.22519373893737793
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/academicqualification",
+      "status": "success",
+      "response_time": 0.23908734321594238
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/",
+      "status": "success",
+      "response_time": 0.5012810230255127
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/general",
+      "status": "success",
+      "response_time": 0.36844396591186523
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/admission",
+      "status": "success",
+      "response_time": 0.21637511253356934
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/enrolment",
+      "status": "success",
+      "response_time": 0.2974674701690674
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/graduation",
+      "status": "success",
+      "response_time": 0.2776355743408203
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/got",
+      "status": "error",
+      "response_time": 0.11733055114746094
+    },
+    {
+      "endpoint": "/api/v1/umtouch/access_control/",
+      "status": "error",
+      "response_time": 0.10409760475158691
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/positiongroup",
+      "status": "success",
+      "response_time": 0.27878785133361816
+    },
+    {
+      "endpoint": "/api/v1/staff/public/staff/demographics/age_gender",
+      "status": "success",
+      "response_time": 0.28586888313293457
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/ptj",
+      "status": "success",
+      "response_time": 0.5042197704315186
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/admissionchannel",
+      "status": "success",
+      "response_time": 0.4937407970428467
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/age_gender",
+      "status": "success",
+      "response_time": 0.49512743949890137
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/studyyear",
+      "status": "success",
+      "response_time": 0.3833036422729492
+    },
+    {
+      "endpoint": "/api/v1/umtouch/token",
+      "status": "error",
+      "response_time": 0.09570121765136719
+    },
+    {
+      "endpoint": "/api/v1/mymohes/auth/token",
+      "status": "error",
+      "response_time": 0.1760880947113037
+    },
+    {
+      "endpoint": "/api/v1/umportal/login",
+      "status": "error",
+      "response_time": 0.0978851318359375
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/householdincome",
+      "status": "error",
+      "response_time": 0.11385273933410645
+    },
+    {
+      "endpoint": "/api/v1/student/public/student/demographics/citizenship",
+      "status": "success",
+      "response_time": 0.4597806930541992
+    },
+    {
+      "endpoint": "/api/v1/mymohes/api/students",
+      "status": "error",
+      "response_time": 0.10164642333984375
+    },
+    {
+      "endpoint": "/api/v1/mymohes/api/students/{matric_no}",
+      "status": "error",
+      "response_time": 0.10178780555725098
+    },
+    {
+      "endpoint": "/api/v1/umportal/access_control/",
+      "status": "error",
+      "response_time": 0.0825340747833252
+    }
+  ],
+  "metrics": {
+    "total_requests": 510,
+    "successful_requests": 235,
+    "failed_requests": 275,
+    "success_rate": 46.07843137254902,
+    "average_response_time": 26.17323717136009,
+    "failure_breakdown": {
+      "'ClientResponse' object has no attribute 'elapsed'": 60,
+      "request_error": 116,
+      "HTTP 500": 8,
+      "HTTP 401": 20,
+      "HTTP 422": 8,
+      "server_error": 14,
+      "authentication_error": 10,
+      "client_error": 4,
+      "authentication_required": 25,
+      "validation_error": 10
+    }
+  },
+  "endpoints": [
+    {
+      "id": 3,
+      "path": "/api/v1/staff/public/staff/demographics/appointment",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut taraf lantikan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664847",
+      "last_checked": "2025-06-17T15:10:25.772413",
+      "health_status": "success",
+      "response_time": 0.28714513778686523,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 4,
+      "path": "/api/v1/staff/public/staff/demographics/category",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut kategori jawatan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664882",
+      "last_checked": "2025-06-17T15:10:25.772419",
+      "health_status": "success",
+      "response_time": 0.2629380226135254,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 5,
+      "path": "/api/v1/staff/public/staff/demographics/appointment_category",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut taraf lantikan dan kategori jawatan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664912",
+      "last_checked": "2025-06-17T15:10:25.772426",
+      "health_status": "success",
+      "response_time": 0.3025319576263428,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 6,
+      "path": "/api/v1/staff/public/staff/demographics/contributions",
+      "method": "GET",
+      "description": "Demografik Staf: Bilangan Staf Mengikut Jenis Caruman",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664942",
+      "last_checked": "2025-06-17T15:10:25.772432",
+      "health_status": "success",
+      "response_time": 0.26056432723999023,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 7,
+      "path": "/api/v1/staff/public/staff/demographics/ptj",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut PTJ",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664976",
+      "last_checked": "2025-06-17T15:10:25.772437",
+      "health_status": "success",
+      "response_time": 0.2608046531677246,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 1,
+      "path": "/api/v1/staff/public/staff/",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf aktif mengikut bulan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664685",
+      "last_checked": "2025-06-17T15:10:25.772391",
+      "health_status": "success",
+      "response_time": 0.28995490074157715,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 2,
+      "path": "/api/v1/staff/public/staff/demographics/general",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf keseluruhan, aktif, baharu, tamat, purata umur, purata tahun perkhidmatan, jantina, warganegara, oku dan emolumen",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.664803",
+      "last_checked": "2025-06-17T15:10:25.772406",
+      "health_status": "success",
+      "response_time": 1.3738019466400146,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 10,
+      "path": "/api/v1/staff/public/staff/demographics/lengthofservice_category",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut tempoh perkhidmatan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665080",
+      "last_checked": "2025-06-17T15:10:25.772454",
+      "health_status": "success",
+      "response_time": 0.22519373893737793,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 11,
+      "path": "/api/v1/staff/public/staff/demographics/academicqualification",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut kelayakan akademik",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665108",
+      "last_checked": "2025-06-17T15:10:25.772460",
+      "health_status": "success",
+      "response_time": 0.23908734321594238,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 12,
+      "path": "/api/v1/student/public/student/",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar enrolment and graduation",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665139",
+      "last_checked": "2025-06-17T15:10:25.772466",
+      "health_status": "success",
+      "response_time": 0.5012810230255127,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 13,
+      "path": "/api/v1/student/public/student/demographics/general",
+      "method": "GET",
+      "description": "",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665168",
+      "last_checked": "2025-06-17T15:10:25.772472",
+      "health_status": "success",
+      "response_time": 0.36844396591186523,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 14,
+      "path": "/api/v1/student/public/student/demographics/admission",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar kemasukan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665198",
+      "last_checked": "2025-06-17T15:10:25.772478",
+      "health_status": "success",
+      "response_time": 0.21637511253356934,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 15,
+      "path": "/api/v1/student/public/student/demographics/enrolment",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar enrolmen aktif",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665230",
+      "last_checked": "2025-06-17T15:10:25.772483",
+      "health_status": "success",
+      "response_time": 0.2974674701690674,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 16,
+      "path": "/api/v1/student/public/student/demographics/graduation",
+      "method": "GET",
+      "description": "Demografik Pelajar: Bilangan pelajar mengikut status graduasi",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665258",
+      "last_checked": "2025-06-17T15:10:25.772489",
+      "health_status": "success",
+      "response_time": 0.2776355743408203,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 17,
+      "path": "/api/v1/student/public/student/demographics/got",
+      "method": "GET",
+      "description": "Demografik Pelajar: Bilangan pelajar mengikut status <b><i>graduan on time</i> (GOT)</b>",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665285",
+      "last_checked": "2025-06-17T15:10:25.772495",
+      "health_status": "error",
+      "response_time": 0.11733055114746094,
+      "status_code": 500,
+      "error_message": null,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 25,
+      "path": "/api/v1/umtouch/access_control/",
+      "method": "GET",
+      "description": "Akses Data Pintar: UMTouch",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665509",
+      "last_checked": "2025-06-17T15:10:25.772540",
+      "health_status": "error",
+      "response_time": 0.10409760475158691,
+      "status_code": 401,
+      "error_message": null,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 8,
+      "path": "/api/v1/staff/public/staff/demographics/positiongroup",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut kumpulan jawatan",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665022",
+      "last_checked": "2025-06-17T15:10:25.772443",
+      "health_status": "success",
+      "response_time": 0.27878785133361816,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 9,
+      "path": "/api/v1/staff/public/staff/demographics/age_gender",
+      "method": "GET",
+      "description": "demografik staf: bilangan staf mengikut jantina dan umur",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665052",
+      "last_checked": "2025-06-17T15:10:25.772449",
+      "health_status": "success",
+      "response_time": 0.28586888313293457,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 20,
+      "path": "/api/v1/student/public/student/demographics/ptj",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar mengikut Fakulti/PTj",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665370",
+      "last_checked": "2025-06-17T15:10:25.772512",
+      "health_status": "success",
+      "response_time": 0.5042197704315186,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 21,
+      "path": "/api/v1/student/public/student/demographics/admissionchannel",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar mengikut tahun pengajian",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665397",
+      "last_checked": "2025-06-17T15:10:25.772517",
+      "health_status": "success",
+      "response_time": 0.4937407970428467,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 22,
+      "path": "/api/v1/student/public/student/demographics/age_gender",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan staf mengikut jantina dan umur",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665424",
+      "last_checked": "2025-06-17T15:10:25.772523",
+      "health_status": "success",
+      "response_time": 0.49512743949890137,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 23,
+      "path": "/api/v1/student/public/student/demographics/studyyear",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar mengikut tahun pengajian",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665454",
+      "last_checked": "2025-06-17T15:10:25.772528",
+      "health_status": "success",
+      "response_time": 0.3833036422729492,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 24,
+      "path": "/api/v1/umtouch/token",
+      "method": "POST",
+      "description": "",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665482",
+      "last_checked": "2025-06-17T15:10:25.772534",
+      "health_status": "error",
+      "response_time": 0.09570121765136719,
+      "status_code": 422,
+      "error_message": null,
+      "failure_reason": "validation_error"
+    },
+    {
+      "id": 26,
+      "path": "/api/v1/mymohes/auth/token",
+      "method": "POST",
+      "description": "",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665554",
+      "last_checked": "2025-06-17T15:10:25.772545",
+      "health_status": "error",
+      "response_time": 0.1760880947113037,
+      "status_code": 401,
+      "error_message": null,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 29,
+      "path": "/api/v1/umportal/login",
+      "method": "POST",
+      "description": "",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665644",
+      "last_checked": "2025-06-17T15:10:25.772562",
+      "health_status": "error",
+      "response_time": 0.0978851318359375,
+      "status_code": 422,
+      "error_message": null,
+      "failure_reason": "validation_error"
+    },
+    {
+      "id": 18,
+      "path": "/api/v1/student/public/student/demographics/householdincome",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar mengikut kumpulan isi rumah",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665312",
+      "last_checked": "2025-06-17T15:10:25.772500",
+      "health_status": "error",
+      "response_time": 0.11385273933410645,
+      "status_code": 500,
+      "error_message": null,
+      "failure_reason": "server_error"
+    },
+    {
+      "id": 19,
+      "path": "/api/v1/student/public/student/demographics/citizenship",
+      "method": "GET",
+      "description": "demografik pelajar: bilangan pelajar mengikut status warganegara",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665340",
+      "last_checked": "2025-06-17T15:10:25.772506",
+      "health_status": "success",
+      "response_time": 0.4597806930541992,
+      "status_code": 200,
+      "error_message": null,
+      "failure_reason": null
+    },
+    {
+      "id": 27,
+      "path": "/api/v1/mymohes/api/students",
+      "method": "GET",
+      "description": "Get all students data with detailed information",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665585",
+      "last_checked": "2025-06-17T15:10:25.772551",
+      "health_status": "error",
+      "response_time": 0.10164642333984375,
+      "status_code": 401,
+      "error_message": null,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 28,
+      "path": "/api/v1/mymohes/api/students/{matric_no}",
+      "method": "GET",
+      "description": "Get single student data by matric number",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665616",
+      "last_checked": "2025-06-17T15:10:25.772557",
+      "health_status": "error",
+      "response_time": 0.10178780555725098,
+      "status_code": 401,
+      "error_message": null,
+      "failure_reason": "authentication_required"
+    },
+    {
+      "id": 30,
+      "path": "/api/v1/umportal/access_control/",
+      "method": "GET",
+      "description": "",
+      "is_active": true,
+      "discovered_at": "2025-06-17T13:42:06.665671",
+      "last_checked": "2025-06-17T15:10:25.772568",
+      "health_status": "error",
+      "response_time": 0.0825340747833252,
+      "status_code": 401,
+      "error_message": null,
+      "failure_reason": "authentication_required"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+2025-06-17 21:39:53,077 - __main__ - INFO - Using database URL: postgresql+pg8000://postgres:fizril2001@localhost:5432/api_management
+2025-06-17 21:39:53,185 - __main__ - INFO - Successfully connected to database
+2025-06-17 21:39:53,193 - __main__ - WARNING - Table 'discovered_endpoints' already exists!
+2025-06-17 21:40:14,065 - __main__ - INFO - Using database URL: postgresql+pg8000://postgres:fizril2001@localhost:5432/api_management
+2025-06-17 21:40:14,175 - __main__ - INFO - Successfully connected to database
+2025-06-17 21:40:14,181 - __main__ - INFO - Looking for alembic.ini at: C:\Users\user\Desktop\FYP Proto9\venv-fastapi\alembic.ini
+2025-06-17 21:40:14,225 - __main__ - INFO - Starting migration for discovered_endpoints table...
+2025-06-17 21:41:42,239 - __main__ - INFO - Using database URL: postgresql+pg8000://postgres:fizril2001@localhost:5432/api_management
+2025-06-17 21:41:42,344 - __main__ - INFO - Successfully connected to database
+2025-06-17 21:41:42,350 - __main__ - WARNING - Table 'discovered_endpoints' already exists!
+2025-06-17 22:24:11,399 - __main__ - INFO - Using database URL: postgresql+pg8000://postgres:fizril2001@localhost:5432/api_management
+2025-06-17 22:24:11,503 - __main__ - INFO - Successfully connected to database
+2025-06-17 22:24:11,508 - __main__ - WARNING - Table 'discovered_endpoints' already exists!

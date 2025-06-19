@@ -1,0 +1,30 @@
+{
+  "/api/v1/staff/public/staff/": {
+    "status_code": 200,
+    "data": {
+      "data_as_of": "31 May 2025",
+      "data": {
+        "jumlah_akademik_tempatan": {
+          "callout1": 2148
+        },
+        "jumlah_akademik_antarabangsa": {
+          "callout1": 298
+        },
+        "jumlah_pnp": {
+          "callout1": 798
+        },
+        "jumlah_sokongan": {
+          "callout1": 2662
+        }
+      }
+    },
+    "headers": {
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "date": "Tue, 17 Jun 2025 12:50:41 GMT",
+      "content-type": "application/json",
+      "content-length": "196",
+      "connection": "keep-alive",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    }
+  }
+}

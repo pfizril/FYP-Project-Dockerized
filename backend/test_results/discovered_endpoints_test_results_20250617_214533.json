@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "generator didn't stop after throw()"
+}

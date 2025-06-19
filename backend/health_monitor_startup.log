@@ -1,0 +1,219 @@
+2025-06-14 23:33:47,352 - INFO - Health Monitor Startup Script
+2025-06-14 23:33:47,352 - INFO - Startup time: 2025-06-14 23:33:47.352304
+2025-06-14 23:33:47,352 - INFO - Starting health monitoring service...
+2025-06-14 23:33:47,352 - INFO - Waiting for database connection pool to stabilize...
+2025-06-14 23:33:47,742 - INFO - Initialized session pool with 5 sessions
+2025-06-14 23:33:52,743 - INFO - Initial pool status: {'active_connections': 0, 'max_connections_seen': 0, 'pool_size': 10, 'max_overflow': 5, 'queue_size': 5, 'queue_maxsize': 15}
+2025-06-14 23:34:02,746 - INFO - Stabilized pool status: {'active_connections': 0, 'max_connections_seen': 0, 'pool_size': 10, 'max_overflow': 5, 'queue_size': 5, 'queue_maxsize': 15}
+2025-06-14 23:34:02,747 - INFO - Waiting for FastAPI server to be ready...
+2025-06-14 23:34:03,448 - INFO - FastAPI server is ready
+2025-06-14 23:34:05,347 - INFO - Created test user with ID: 225
+2025-06-14 23:34:05,361 - INFO - Created API key with ID: 229
+2025-06-14 23:34:05,361 - INFO - API Key: health-monitor-key-e79ff7100a21c775
+2025-06-14 23:34:05,370 - INFO - Created test endpoint with ID: 400
+2025-06-14 23:34:05,370 - INFO - Endpoint URL: /test/health-check-e6c7c645
+2025-06-14 23:34:05,372 - INFO - Successfully imported database and models
+2025-06-14 23:34:05,373 - INFO - Starting health monitoring loop...
+2025-06-14 23:34:05,373 - INFO - Starting enhanced health monitoring service
+2025-06-14 23:34:06,035 - INFO - Created test user with ID: 226
+2025-06-14 23:34:06,038 - INFO - Created API key with ID: 230
+2025-06-14 23:34:06,038 - INFO - API Key: health-monitor-key-7bebfb59daad2851
+2025-06-14 23:34:06,042 - INFO - Created test endpoint with ID: 401
+2025-06-14 23:34:06,042 - INFO - Endpoint URL: /test/health-check-8d6d3794
+2025-06-14 23:34:06,043 - INFO - Updated endpoint configuration with new test data IDs
+2025-06-14 23:34:06,043 - INFO - Health checker initialized with fresh test data
+2025-06-14 23:34:06,044 - INFO - Using base URL: http://localhost:8000
+2025-06-14 23:34:06,761 - INFO - Successfully obtained authentication token
+2025-06-14 23:34:07,043 - INFO - Database pool status: {'active_connections': 8, 'max_connections_seen': 8, 'pool_size': 10, 'max_overflow': 5, 'queue_size': 5, 'queue_maxsize': 15}
+2025-06-14 23:34:07,049 - INFO - Found 41 endpoints to monitor
+2025-06-14 23:34:07,130 - INFO - Found 39 active endpoints in database to check
+2025-06-14 23:34:07,131 - INFO - Will check 39 endpoints
+2025-06-14 23:34:07,132 - INFO - Starting health check for endpoint 133: /auth/current-user
+2025-06-14 23:34:07,132 - INFO - Full URL: http://localhost:8000/auth/current-user
+2025-06-14 23:34:07,132 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:07,132 - INFO - Making GET request to http://localhost:8000/auth/current-user
+2025-06-14 23:34:07,132 - INFO - Starting health check for endpoint 134: /auth/update-user
+2025-06-14 23:34:07,132 - INFO - Full URL: http://localhost:8000/auth/update-user
+2025-06-14 23:34:07,133 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:07,133 - INFO - Making PUT request to http://localhost:8000/auth/update-user
+2025-06-14 23:34:07,133 - INFO - Starting health check for endpoint 135: /auth/api-keys/generate/{user_id}
+2025-06-14 23:34:07,133 - INFO - Full URL: http://localhost:8000/auth/api-keys/generate/{user_id}
+2025-06-14 23:34:07,133 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:07,133 - INFO - Making POST request to http://localhost:8000/auth/api-keys/generate/{user_id}
+2025-06-14 23:34:07,575 - INFO - Health check result for /auth/current-user: status_code=200, response_time=0.444s, success=True, failure_reason=unknown_error
+2025-06-14 23:34:07,587 - INFO - Health check result for /auth/api-keys/generate/{user_id}: status_code=422, response_time=0.454s, success=False, failure_reason=validation_error
+2025-06-14 23:34:07,595 - INFO - Health check result for /auth/update-user: status_code=200, response_time=0.462s, success=True, failure_reason=unknown_error
+2025-06-14 23:34:07,603 - INFO - Committed 3 health check results to database
+2025-06-14 23:34:08,609 - INFO - Starting health check for endpoint 136: /auth/api-keys/revoke/{key_id}
+2025-06-14 23:34:08,609 - INFO - Full URL: http://localhost:8000/auth/api-keys/revoke/{key_id}
+2025-06-14 23:34:08,609 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:08,609 - INFO - Making POST request to http://localhost:8000/auth/api-keys/revoke/{key_id}
+2025-06-14 23:34:08,610 - INFO - Starting health check for endpoint 137: /auth/api-keys/list
+2025-06-14 23:34:08,610 - INFO - Full URL: http://localhost:8000/auth/api-keys/list
+2025-06-14 23:34:08,610 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:08,610 - INFO - Making GET request to http://localhost:8000/auth/api-keys/list
+2025-06-14 23:34:08,610 - INFO - Starting health check for endpoint 138: /auth/api-keys/{user_id}
+2025-06-14 23:34:08,610 - INFO - Full URL: http://localhost:8000/auth/api-keys/{user_id}
+2025-06-14 23:34:08,610 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:08,610 - INFO - Making GET request to http://localhost:8000/auth/api-keys/{user_id}
+2025-06-14 23:34:08,726 - INFO - Health check result for /auth/api-keys/list: status_code=200, response_time=0.116s, success=True, failure_reason=unknown_error
+2025-06-14 23:34:39,400 - ERROR - Error checking endpoint /auth/api-keys/revoke/{key_id}: 
+2025-06-14 23:34:39,400 - ERROR - Error checking endpoint /auth/api-keys/{user_id}: 
+2025-06-14 23:34:39,404 - INFO - Committed 3 health check results to database
+2025-06-14 23:34:40,408 - INFO - Starting health check for endpoint 142: /api-management/endpoints-update/{endpoint_id}
+2025-06-14 23:34:40,408 - INFO - Full URL: http://localhost:8000/api-management/endpoints-update/{endpoint_id}
+2025-06-14 23:34:40,408 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:40,408 - INFO - Making PUT request to http://localhost:8000/api-management/endpoints-update/{endpoint_id}
+2025-06-14 23:34:40,409 - INFO - Starting health check for endpoint 143: /api-management/delete-endpoints/{endpoint_id}
+2025-06-14 23:34:40,409 - INFO - Full URL: http://localhost:8000/api-management/delete-endpoints/{endpoint_id}
+2025-06-14 23:34:40,409 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:40,410 - INFO - Making DELETE request to http://localhost:8000/api-management/delete-endpoints/{endpoint_id}
+2025-06-14 23:34:40,410 - INFO - Starting health check for endpoint 144: /api-management/endpoints/create
+2025-06-14 23:34:40,410 - INFO - Full URL: http://localhost:8000/api-management/endpoints/create
+2025-06-14 23:34:40,410 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:34:40,410 - INFO - Making POST request to http://localhost:8000/api-management/endpoints/create
+2025-06-14 23:35:11,408 - ERROR - Error checking endpoint /api-management/delete-endpoints/{endpoint_id}: 
+2025-06-14 23:35:11,408 - ERROR - Error checking endpoint /api-management/endpoints-update/{endpoint_id}: 
+2025-06-14 23:35:11,408 - ERROR - Error checking endpoint /api-management/endpoints/create: 
+2025-06-14 23:35:11,412 - INFO - Committed 3 health check results to database
+2025-06-14 23:35:12,419 - INFO - Starting health check for endpoint 145: /api-management/endpoints
+2025-06-14 23:35:12,420 - INFO - Full URL: http://localhost:8000/api-management/endpoints
+2025-06-14 23:35:12,420 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:12,420 - INFO - Making GET request to http://localhost:8000/api-management/endpoints
+2025-06-14 23:35:12,420 - INFO - Starting health check for endpoint 146: /api-management/endpoints/toggle_status/{endpoint_id}
+2025-06-14 23:35:12,420 - INFO - Full URL: http://localhost:8000/api-management/endpoints/toggle_status/{endpoint_id}
+2025-06-14 23:35:12,420 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:12,420 - INFO - Making PUT request to http://localhost:8000/api-management/endpoints/toggle_status/{endpoint_id}
+2025-06-14 23:35:12,421 - INFO - Starting health check for endpoint 147: /security/vulnerability-scan/comprehensive
+2025-06-14 23:35:12,421 - INFO - Full URL: http://localhost:8000/security/vulnerability-scan/comprehensive
+2025-06-14 23:35:12,421 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:12,421 - INFO - Making GET request to http://localhost:8000/security/vulnerability-scan/comprehensive
+2025-06-14 23:35:43,410 - ERROR - Error checking endpoint /api-management/endpoints/toggle_status/{endpoint_id}: 
+2025-06-14 23:35:43,411 - ERROR - Error checking endpoint /api-management/endpoints: 
+2025-06-14 23:35:43,411 - ERROR - Error checking endpoint /security/vulnerability-scan/comprehensive: 
+2025-06-14 23:35:43,416 - INFO - Committed 3 health check results to database
+2025-06-14 23:35:44,420 - INFO - Starting health check for endpoint 148: /security/traffic-analysis
+2025-06-14 23:35:44,420 - INFO - Full URL: http://localhost:8000/security/traffic-analysis
+2025-06-14 23:35:44,420 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:44,420 - INFO - Making GET request to http://localhost:8000/security/traffic-analysis
+2025-06-14 23:35:44,421 - INFO - Starting health check for endpoint 149: /security/threat-score
+2025-06-14 23:35:44,421 - INFO - Full URL: http://localhost:8000/security/threat-score
+2025-06-14 23:35:44,421 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:44,421 - INFO - Making GET request to http://localhost:8000/security/threat-score
+2025-06-14 23:35:44,422 - INFO - Starting health check for endpoint 150: /security/vulnerability-scan/open-endpoints
+2025-06-14 23:35:44,422 - INFO - Full URL: http://localhost:8000/security/vulnerability-scan/open-endpoints
+2025-06-14 23:35:44,422 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:35:44,422 - INFO - Making GET request to http://localhost:8000/security/vulnerability-scan/open-endpoints
+2025-06-14 23:36:15,402 - ERROR - Error checking endpoint /security/threat-score: 
+2025-06-14 23:36:15,402 - ERROR - Error checking endpoint /security/traffic-analysis: 
+2025-06-14 23:36:15,402 - ERROR - Error checking endpoint /security/vulnerability-scan/open-endpoints: 
+2025-06-14 23:36:15,408 - INFO - Committed 3 health check results to database
+2025-06-14 23:36:16,413 - INFO - Starting health check for endpoint 151: /security/vulnerability-scan/cors
+2025-06-14 23:36:16,413 - INFO - Full URL: http://localhost:8000/security/vulnerability-scan/cors
+2025-06-14 23:36:16,413 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:16,413 - INFO - Making GET request to http://localhost:8000/security/vulnerability-scan/cors
+2025-06-14 23:36:16,413 - INFO - Starting health check for endpoint 152: /analytics/traffic-insights
+2025-06-14 23:36:16,414 - INFO - Full URL: http://localhost:8000/analytics/traffic-insights
+2025-06-14 23:36:16,414 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:16,414 - INFO - Making GET request to http://localhost:8000/analytics/traffic-insights
+2025-06-14 23:36:16,414 - INFO - Starting health check for endpoint 153: /analytics/success-failure-rates
+2025-06-14 23:36:16,414 - INFO - Full URL: http://localhost:8000/analytics/success-failure-rates
+2025-06-14 23:36:16,414 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:16,414 - INFO - Making GET request to http://localhost:8000/analytics/success-failure-rates
+2025-06-14 23:36:47,405 - ERROR - Error checking endpoint /analytics/traffic-insights: 
+2025-06-14 23:36:47,405 - ERROR - Error checking endpoint /security/vulnerability-scan/cors: 
+2025-06-14 23:36:47,406 - ERROR - Error checking endpoint /analytics/success-failure-rates: 
+2025-06-14 23:36:47,411 - INFO - Committed 3 health check results to database
+2025-06-14 23:36:48,414 - INFO - Starting health check for endpoint 154: /analytics/response-time-analysis
+2025-06-14 23:36:48,414 - INFO - Full URL: http://localhost:8000/analytics/response-time-analysis
+2025-06-14 23:36:48,414 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:48,414 - INFO - Making GET request to http://localhost:8000/analytics/response-time-analysis
+2025-06-14 23:36:48,414 - INFO - Starting health check for endpoint 155: /analytics/export-logs
+2025-06-14 23:36:48,415 - INFO - Full URL: http://localhost:8000/analytics/export-logs
+2025-06-14 23:36:48,415 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:48,415 - INFO - Making GET request to http://localhost:8000/analytics/export-logs
+2025-06-14 23:36:48,415 - INFO - Starting health check for endpoint 156: /analytics/endpoints/health-summary
+2025-06-14 23:36:48,415 - INFO - Full URL: http://localhost:8000/analytics/endpoints/health-summary
+2025-06-14 23:36:48,415 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:36:48,416 - INFO - Making GET request to http://localhost:8000/analytics/endpoints/health-summary
+2025-06-14 23:37:19,401 - ERROR - Error checking endpoint /analytics/export-logs: 
+2025-06-14 23:37:19,402 - ERROR - Error checking endpoint /analytics/response-time-analysis: 
+2025-06-14 23:37:19,402 - ERROR - Error checking endpoint /analytics/endpoints/health-summary: 
+2025-06-14 23:37:19,408 - INFO - Committed 3 health check results to database
+2025-06-14 23:37:20,415 - INFO - Starting health check for endpoint 157: /analytics/overview-metrics
+2025-06-14 23:37:20,416 - INFO - Full URL: http://localhost:8000/analytics/overview-metrics
+2025-06-14 23:37:20,416 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:20,416 - INFO - Making GET request to http://localhost:8000/analytics/overview-metrics
+2025-06-14 23:37:20,416 - INFO - Starting health check for endpoint 158: /analytics/requests-breakdown
+2025-06-14 23:37:20,417 - INFO - Full URL: http://localhost:8000/analytics/requests-breakdown
+2025-06-14 23:37:20,417 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:20,417 - INFO - Making GET request to http://localhost:8000/analytics/requests-breakdown
+2025-06-14 23:37:20,417 - INFO - Starting health check for endpoint 159: /analytics/failures-breakdown
+2025-06-14 23:37:20,417 - INFO - Full URL: http://localhost:8000/analytics/failures-breakdown
+2025-06-14 23:37:20,417 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:20,417 - INFO - Making GET request to http://localhost:8000/analytics/failures-breakdown
+2025-06-14 23:37:51,404 - ERROR - Error checking endpoint /analytics/failures-breakdown: 
+2025-06-14 23:37:51,405 - ERROR - Error checking endpoint /analytics/overview-metrics: 
+2025-06-14 23:37:51,405 - ERROR - Error checking endpoint /analytics/requests-breakdown: 
+2025-06-14 23:37:51,412 - INFO - Committed 3 health check results to database
+2025-06-14 23:37:52,417 - INFO - Starting health check for endpoint 160: /analytics/performance-trends
+2025-06-14 23:37:52,418 - INFO - Full URL: http://localhost:8000/analytics/performance-trends
+2025-06-14 23:37:52,418 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:52,418 - INFO - Making GET request to http://localhost:8000/analytics/performance-trends
+2025-06-14 23:37:52,419 - INFO - Starting health check for endpoint 161: /analytics/client-insights
+2025-06-14 23:37:52,419 - INFO - Full URL: http://localhost:8000/analytics/client-insights
+2025-06-14 23:37:52,419 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:52,419 - INFO - Making GET request to http://localhost:8000/analytics/client-insights
+2025-06-14 23:37:52,419 - INFO - Starting health check for endpoint 162: /csrf/csrf-token
+2025-06-14 23:37:52,419 - INFO - Full URL: http://localhost:8000/csrf/csrf-token
+2025-06-14 23:37:52,419 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:52,419 - INFO - Making GET request to http://localhost:8000/csrf/csrf-token
+2025-06-14 23:37:57,179 - INFO - Health check result for /csrf/csrf-token: status_code=200, response_time=4.760s, success=True, failure_reason=unknown_error
+2025-06-14 23:37:57,191 - INFO - Health check result for /analytics/client-insights: status_code=200, response_time=4.772s, success=True, failure_reason=unknown_error
+2025-06-14 23:37:57,196 - INFO - Health check result for /analytics/performance-trends: status_code=200, response_time=4.779s, success=True, failure_reason=unknown_error
+2025-06-14 23:37:57,201 - INFO - Committed 3 health check results to database
+2025-06-14 23:37:58,215 - INFO - Starting health check for endpoint 393: test
+2025-06-14 23:37:58,215 - INFO - Full URL: http://localhost:8000test
+2025-06-14 23:37:58,215 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:58,215 - INFO - Making GET request to http://localhost:8000test
+2025-06-14 23:37:58,216 - ERROR - Error checking endpoint test: http://localhost:8000test
+2025-06-14 23:37:58,216 - INFO - Starting health check for endpoint 164: /health
+2025-06-14 23:37:58,216 - INFO - Full URL: http://localhost:8000/health
+2025-06-14 23:37:58,216 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:58,216 - INFO - Making GET request to http://localhost:8000/health
+2025-06-14 23:37:58,216 - INFO - Starting health check for endpoint 165: /
+2025-06-14 23:37:58,216 - INFO - Full URL: http://localhost:8000/
+2025-06-14 23:37:58,216 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:37:58,216 - INFO - Making GET request to http://localhost:8000/
+2025-06-14 23:38:28,408 - ERROR - Error checking endpoint /: 
+2025-06-14 23:38:28,408 - ERROR - Error checking endpoint /health: 
+2025-06-14 23:38:28,413 - INFO - Committed 3 health check results to database
+2025-06-14 23:38:29,424 - INFO - Starting health check for endpoint 166: /admin-dashboard
+2025-06-14 23:38:29,425 - INFO - Full URL: http://localhost:8000/admin-dashboard
+2025-06-14 23:38:29,425 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:38:29,425 - INFO - Making GET request to http://localhost:8000/admin-dashboard
+2025-06-14 23:38:29,426 - INFO - Starting health check for endpoint 167: /test-payload
+2025-06-14 23:38:29,426 - INFO - Full URL: http://localhost:8000/test-payload
+2025-06-14 23:38:29,426 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:38:29,426 - INFO - Making POST request to http://localhost:8000/test-payload
+2025-06-14 23:38:29,426 - INFO - Starting health check for endpoint 130: /auth/users/create-user
+2025-06-14 23:38:29,427 - INFO - Full URL: http://localhost:8000/auth/users/create-user
+2025-06-14 23:38:29,427 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:38:29,427 - INFO - Making POST request to http://localhost:8000/auth/users/create-user
+2025-06-14 23:39:00,410 - ERROR - Error checking endpoint /test-payload: 
+2025-06-14 23:39:00,410 - ERROR - Error checking endpoint /admin-dashboard: 
+2025-06-14 23:39:00,410 - ERROR - Error checking endpoint /auth/users/create-user: 
+2025-06-14 23:39:00,415 - INFO - Committed 3 health check results to database
+2025-06-14 23:39:01,424 - INFO - Starting health check for endpoint 140: /auth/users/list
+2025-06-14 23:39:01,425 - INFO - Full URL: http://localhost:8000/auth/users/list
+2025-06-14 23:39:01,425 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:39:01,425 - INFO - Making GET request to http://localhost:8000/auth/users/list
+2025-06-14 23:39:01,426 - INFO - Starting health check for endpoint 132: /auth/show-current-users
+2025-06-14 23:39:01,426 - INFO - Full URL: http://localhost:8000/auth/show-current-users
+2025-06-14 23:39:01,426 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:39:01,426 - INFO - Making GET request to http://localhost:8000/auth/show-current-users
+2025-06-14 23:39:01,426 - INFO - Starting health check for endpoint 368: http://example.com/api/test
+2025-06-14 23:39:01,426 - INFO - Full URL: http://example.com/api/test
+2025-06-14 23:39:01,426 - INFO - Headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJoZWFsdGhfY2hlY2tfdXNlciIsImlkIjoyMjUsInJvbGUiOiJBZG1pbiIsImV4cCI6MTc0OTkxNjE0Nn0.IrLWI22JLSkjMKWKoCSJ1yosjmSIv2Y7kvFVJGtlfGY'}
+2025-06-14 23:39:01,426 - INFO - Making POST request to http://example.com/api/test
+2025-06-14 23:39:01,779 - INFO - Health check result for http://example.com/api/test: status_code=403, response_time=0.353s, success=False, failure_reason=forbidden

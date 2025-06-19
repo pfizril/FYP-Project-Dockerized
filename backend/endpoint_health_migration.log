@@ -1,0 +1,33 @@
+2025-06-17 22:25:51,821 - __main__ - INFO - Starting endpoint health table migration...
+2025-06-17 22:25:51,822 - __main__ - INFO - Creating temporary columns...
+2025-06-17 22:25:51,823 - __main__ - INFO - Updating status values...
+2025-06-17 22:25:51,827 - __main__ - INFO - Dropping old status column...
+2025-06-17 22:25:51,827 - __main__ - INFO - Renaming new status column...
+2025-06-17 22:25:51,830 - __main__ - INFO - Making columns non-nullable...
+2025-06-17 22:25:51,830 - __main__ - INFO - Migration completed successfully!
+2025-06-17 22:25:51,842 - __main__ - INFO - Current table structure:
+2025-06-17 22:25:51,842 - __main__ - INFO -   endpoint_health_id: integer
+2025-06-17 22:25:51,842 - __main__ - INFO -   response_time: double precision
+2025-06-17 22:25:51,842 - __main__ - INFO -   checked_at: timestamp without time zone
+2025-06-17 22:25:51,842 - __main__ - INFO -   status_code: integer
+2025-06-17 22:25:51,842 - __main__ - INFO -   error_message: text
+2025-06-17 22:25:51,842 - __main__ - INFO -   failure_reason: character varying
+2025-06-17 22:25:51,842 - __main__ - INFO -   discovered_endpoint_id: integer
+2025-06-17 22:25:51,842 - __main__ - INFO -   status: character varying
+2025-06-17 22:25:51,842 - __main__ - INFO -   is_healthy: boolean
+2025-06-17 22:26:04,340 - __main__ - INFO - Starting endpoint health table migration...
+2025-06-17 22:26:04,340 - __main__ - INFO - Creating temporary columns...
+2025-06-17 22:26:04,342 - __main__ - ERROR - Migration failed: (pg8000.dbapi.ProgrammingError) {'S': 'ERROR', 'V': 'ERROR', 'C': '42701', 'M': 'column "is_healthy" of relation "endpoint_health" already exists', 'F': 'tablecmds.c', 'L': '7448', 'R': 'check_for_column_name_collision'}
+[SQL: 
+                    ALTER TABLE endpoint_health 
+                    ADD COLUMN new_status VARCHAR,
+                    ADD COLUMN is_healthy BOOLEAN
+                ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-17 22:26:04,342 - __main__ - ERROR - Script failed: (pg8000.dbapi.ProgrammingError) {'S': 'ERROR', 'V': 'ERROR', 'C': '42701', 'M': 'column "is_healthy" of relation "endpoint_health" already exists', 'F': 'tablecmds.c', 'L': '7448', 'R': 'check_for_column_name_collision'}
+[SQL: 
+                    ALTER TABLE endpoint_health 
+                    ADD COLUMN new_status VARCHAR,
+                    ADD COLUMN is_healthy BOOLEAN
+                ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
