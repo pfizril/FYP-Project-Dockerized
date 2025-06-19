@@ -973,9 +973,9 @@ export function RemoteServerAnalyticsDashboard({ serverId, client }: RemoteServe
                         <Activity className="h-4 w-4 text-muted-foreground" />
                       </CardHeader>
                       <CardContent>
-                        <div className="text-2xl font-bold">{performanceAnalytics.summary.total_health_checks}</div>
+                        <div className="text-2xl font-bold">{performanceAnalytics.summary?.total_health_checks ?? 'N/A'}</div>
                         <p className="text-xs text-muted-foreground">
-                          {new Date(performanceAnalytics.summary.time_period_start).toLocaleDateString()} - {new Date(performanceAnalytics.summary.time_period_end).toLocaleDateString()}
+                          {performanceAnalytics.summary?.time_period_start ? new Date(performanceAnalytics.summary.time_period_start).toLocaleDateString() : 'N/A'} - {performanceAnalytics.summary?.time_period_end ? new Date(performanceAnalytics.summary.time_period_end).toLocaleDateString() : 'N/A'}
                         </p>
                       </CardContent>
                     </Card>
@@ -985,7 +985,7 @@ export function RemoteServerAnalyticsDashboard({ serverId, client }: RemoteServe
                         <Clock className="h-4 w-4 text-muted-foreground" />
                       </CardHeader>
                       <CardContent>
-                        <div className="text-2xl font-bold">{performanceAnalytics.summary.overall_average_response_time.toFixed(2)} ms</div>
+                        <div className="text-2xl font-bold">{performanceAnalytics.summary?.overall_average_response_time !== undefined ? performanceAnalytics.summary.overall_average_response_time.toFixed(2) + ' ms' : 'N/A'}</div>
                         <p className="text-xs text-muted-foreground">Average across all endpoints</p>
                       </CardContent>
                     </Card>
@@ -1435,7 +1435,7 @@ export function RemoteServerAnalyticsDashboard({ serverId, client }: RemoteServe
               )}
               <br></br>
               {/* Traffic Correlation Chart */}
-              {performanceAnalytics && performanceAnalytics.data.traffic_correlation.data.length > 0 && (
+              {performanceAnalytics && performanceAnalytics.data && performanceAnalytics.data.traffic_correlation && Array.isArray(performanceAnalytics.data.traffic_correlation.data) && performanceAnalytics.data.traffic_correlation.data.length > 0 && (
                 <Card>
                   <CardHeader>
                     <CardTitle>Traffic vs Response Time Correlation</CardTitle>
